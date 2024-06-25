@@ -52,7 +52,10 @@ function displayTotalPoints() {
             zeroPointsCount++;
         }
 
-        totalPoints += points;
+        // Check if points are -1, if not add to totalPoints
+        if (points !== -1) {
+            totalPoints += points;
+        }
     }
 
     // Adjust the divisor based on the number of zero points

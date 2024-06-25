@@ -19,7 +19,7 @@
                     <td>1 - Collection:</td>
                     <td>
                         <select name="question1" onchange="updateLayerVisibility(this.value, 1)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">In-line</option>
                             <option value="2">On-line or at-line</option>
                             <option value="1">Off-line</option>
@@ -30,7 +30,7 @@
                     <td>2 - Preservation:</td>
                     <td>
                         <select name="question2" onchange="updateLayerVisibility(this.value, 2)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">None</option>
                             <option value="2">Chemical or physical</option>
                             <option value="1">Physico-chemical</option>
@@ -41,7 +41,7 @@
                     <td>3 - Transport:</td>
                     <td>
                         <select name="question3" onchange="updateLayerVisibility(this.value, 3)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">None</option>
                             <option value="2">Required</option>
                         </select>
@@ -51,7 +51,7 @@
                     <td>4 - Storage:</td>
                     <td>
                         <select name="question4" onchange="updateLayerVisibility(this.value, 4)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">None</option>
                             <option value="2">Under normal conditions</option>
                             <option value="1">Under special conditions</option>
@@ -62,7 +62,7 @@
                     <td>5 - Type of method:</td>
                     <td>
                         <select name="question5" onchange="updateLayerVisibility(this.value, 5)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">No sample preparation</option>
                             <option value="2">Simple procedures, e.g., filtration, decantation</option>
                             <option value="1">Extraction required</option>
@@ -73,7 +73,7 @@
                     <td>6 - Scale of extraction:</td>
                     <td>
                         <select name="question6" onchange="updateLayerVisibility(this.value, 6)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">Nano-extraction</option>
                             <option value="2">Micro-extraction</option>
                             <option value="1">Macro-extraction</option>
@@ -85,7 +85,7 @@
                     <td>7 - Solvents/reagents used:</td>
                     <td>
                         <select name="question7" onchange="updateLayerVisibility(this.value, 7)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">Solvent-free methods</option>
                             <option value="2">Green solvents/reagents used</option>
                             <option value="1">Non-green solvents/reagents used</option>
@@ -96,7 +96,7 @@
                     <td>8 - Additional treatment:</td>
                     <td>
                         <select name="question8" onchange="updateLayerVisibility(this.value, 8)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">None</option>
                             <option value="2">Simple treatments (clean up, solvent removal, etc.)</option>
                             <option value="1">Advanced treatments (derivatization, mineralization, etc.)</option>
@@ -110,7 +110,7 @@
                     <td>9 - Amount:</td>
                     <td>
                         <select name="question9" onchange="updateLayerVisibility(this.value, 9)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">&lt; 10 mL (&lt; 10 g)</option>
                             <option value="2">10–100 mL (10–100 g)</option>
                             <option value="1">&gt; 100 mL (&gt; 100 g)</option>
@@ -121,7 +121,7 @@
                     <td>10 - Health hazard:</td>
                     <td>
                         <select name="question10" onchange="updateLayerVisibility(this.value, 10)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">Slightly toxic, slight irritant; NFPA health hazard score = 0 or 1</option>
                             <option value="2">Moderately toxic; could cause temporary incapacitation; NFPA = 2 or 3</option>
                             <option value="1">Serious injury on short-term exposure; known or suspected small animal carcinogen; NFPA = 4</option>
@@ -132,7 +132,7 @@
                     <td>11 - Safety hazard:</td>
                     <td>
                         <select name="question11" onchange="updateLayerVisibility(this.value, 11)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">Highest NFPA flammability or instability score of 0 or 1. No special hazards</option>
                             <option value="2">Highest NFPA flammability or instability score of 2 or 3, or a special hazard is used</option>
                             <option value="1">Highest NFPA flammability or instability score of 4</option>
@@ -146,7 +146,7 @@
                     <td>12 - Energy:</td>
                     <td>
                         <select name="question12" onchange="updateLayerVisibility(this.value, 12)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">&le;0.1 kWh per sample</option>
                             <option value="2">&le;1.5 kWh per sample</option>
                             <option value="1">&gt; 1.5 kWh per sample</option>
@@ -157,7 +157,7 @@
                     <td>13 - Occupational hazard:</td>
                     <td>
                         <select name="question13" onchange="updateLayerVisibility(this.value, 13)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">Hermetic sealing of analytical process</option>
                             <option value="1">Emission of vapors to the atmosphere</option>
                         </select>
@@ -167,7 +167,7 @@
                     <td>14 - Waste:</td>
                     <td>
                         <select name="question14" onchange="updateLayerVisibility(this.value, 14)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">&lt; 1 mL (&lt; 1 g)</option>
                             <option value="2">1–10 mL (1–10 g)</option>
                             <option value="1">&gt; 10 mL (&gt; 10 g)</option>
@@ -178,7 +178,7 @@
                     <td>15 - Waste treatment:</td>
                     <td>
                         <select name="question15" onchange="updateLayerVisibility(this.value, 15)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="3">Recycling</option>
                             <option value="2">Degradation, passivation</option>
                             <option value="1">No treatment</option>
@@ -189,7 +189,7 @@
                     <td>16 - QUANTIFICATION:</td>
                     <td>
                         <select name="question16" onchange="updateLayerVisibility(this.value, 16)">
-                            <option value="none"></option>
+                            <option value="-1"></option>
                             <option value="5">Yes</option>
                             <option value="1">No</option>
                         </select>
